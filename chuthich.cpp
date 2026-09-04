@@ -1,0 +1,2 @@
+//Chu thich mot dong
+/*....*/
