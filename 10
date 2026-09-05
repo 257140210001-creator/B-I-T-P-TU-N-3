@@ -1,0 +1,15 @@
+// Viết lệnh hoán đổi 2 giá trị của a và b
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 10;
+    int &b = a;   // b là tham chiếu của a
+
+    b = 20;
+
+    cout << "a = " << a << endl;
+    cout << "b = " << b << endl;
+
+    return 0;
+}
