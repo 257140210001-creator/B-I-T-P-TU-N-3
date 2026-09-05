@@ -1,0 +1,28 @@
+//chồng toán tử để tính cộng hai đối tượng Diem.
+#include <iostream>
+using namespace std;
+
+class Diem {
+public:
+    int x, y;
+
+    Diem(int a, int b) {
+        x = a;
+        y = b;
+    }
+
+    Diem operator+(Diem d) {
+        return Diem(x + d.x, y + d.y);
+    }
+};
+
+int main() {
+    Diem A(2, 3);
+    Diem B(4, 5);
+
+    Diem C = A + B;
+
+    cout << C.x << " " << C.y;
+
+    return 0;
+}

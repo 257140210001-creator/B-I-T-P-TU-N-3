@@ -1,0 +1,18 @@
+//tạo nhiều hàm cùng tên nhưng khác danh sách tham số
+#include <iostream>
+using namespace std;
+
+void tinhTong(int a, int b) {
+    cout << a + b << endl;
+}
+
+void tinhTong(int a, int b, int c) {
+    cout << a + b + c << endl;
+}
+
+int main() {
+    tinhTong(2, 3);       // gọi hàm 2 tham số
+    tinhTong(2, 3, 4);    // gọi hàm 3 tham số
+
+    return 0;
+}
