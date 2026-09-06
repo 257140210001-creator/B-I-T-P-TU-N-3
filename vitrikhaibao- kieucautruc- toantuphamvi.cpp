@@ -50,8 +50,3 @@ struct SinhVien {
     float diem;
 };
 
-Toán tử vi
-6.1:Khái niệm
-
-:: được gọi là toán tử phạm vi (Scope Resolution Operator).
-pham_vi::ten
